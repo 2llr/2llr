@@ -2,7 +2,104 @@
 "":
   "":
     "":
-    "a":
+      "":
+        "":
+          "":
+            "":
+              "":
+                "":
+                  "":
+                    "":
+                      "":
+                        "":
+                          "":
+                            "":
+                              "":
+                                "":
+                                  "":
+                                    "":
+                                      "":
+                                        "":
+                                          "":
+                                            "":
+                                              "":
+                                                "":
+                                                  "":
+                                                    "":
+                                                      "":
+                                                        "":
+                                                          "":
+                                                            "":
+                                                              "":
+                                                                "":
+                                                                  "":
+                                                                    "":
+                                                                      "":
+                                                                        "":
+                                                                          "":
+                                                                            "":
+                                                                              "":
+                                                                                "":
+                                                                                  "":
+                                                                                    "":
+                                                                                      "":
+                                                                                        "":
+                                                                                          "":
+                                                                                            "":
+                                                                                              "":
+                                                                                                "":
+                                                                                                  "":
+                                                                                                    "":
+                                                                                                      "":
+                                                                                                        "":
+                                                                                                          "":
+                                                                                                            "":
+                                                                                                              "":
+                                                                                                                "":
+                                                                                                                  "":
+                                                                                                                    "":
+                                                                                                                      "":
+                                                                                                                        "":
+                                                                                                                          "":
+                                                                                                                            "":
+                                                                                                                              "":
+                                                                                                                                "":
+                                                                                                                                  "":
+                                                                                                                                    "":
+                                                                                                                                      "":
+                                                                                                                                        "":
+                                                                                                                                          "":
+                                                                                                                                            "":
+                                                                                                                                              "":
+                                                                                                                                                "":
+                                                                                                                                                  "":
+                                                                                                                                                    "":
+                                                                                                                                                      "":
+                                                                                                                                                        "":
+                                                                                                                                                          "":
+                                                                                                                                                            "":
+                                                                                                                                                              "":
+                                                                                                                                                                "":
+                                                                                                                                                                  "":
+                                                                                                                                                                    "":
+                                                                                                                                                                      "":
+                                                                                                                                                                        "":
+                                                                                                                                                                          "":
+                                                                                                                                                                            "":
+                                                                                                                                                                              "":
+                                                                                                                                                                                "":
+                                                                                                                                                                                  "":
+                                                                                                                                                                                    "":
+                                                                                                                                                                                      "":
+                                                                                                                                                                                        "":
+                                                                                                                                                                                          "":
+                                                                                                                                                                                            "":
+                                                                                                                                                                                              "":
+                                                                                                                                                                                                "":
+                                                                                                                                                                                                  "":
+                                                                                                                                                                                                    "":
+                                                                                                                                                                                                      "":
+
 ---
 
 <blockquote cite="https://datatracker.ietf.org/doc/html/rfc1149">
@@ -30,3 +127,18 @@ This exampull will be checkd fur spellung when you try to edit it.
 <p dir="rtl">abcdefg</p>
 
 <kbd>hello</kbd>
+
+[site]: https://example.com
+[docs]: https://example.com/docs
+
+See the [docs] or visit the [site].
+
+[^policy]: This project follows XYZ policy.
+
+We comply with the policy[^policy].
+
+<picture>
+  <source srcset="./assets/hints-desktop.png" media="(hover: hover) and (pointer: fine)">
+  <source srcset="./assets/hints-touch.png"   media="(hover: none) and (pointer: coarse)">
+  <img src="./assets/hints-generic.png" alt="Usage hints">
+</picture>
