@@ -1,67 +1,4 @@
 ---
-"":
-  "a":
-    "a":
-      "a":
-        "a":
-          "a":
-          "b":
-        "b":
-          "a":
-          "b":
-      "b":
-        "a":
-          "a":
-          "b":
-        "b":
-          "a":
-          "b":
-    "b":
-      "a":
-        "a":
-          "a":
-          "b":
-        "b":
-          "a":
-          "b":
-      "b":
-        "a":
-          "a":
-          "b":
-        "b":
-          "a":
-          "b":
-  "b":
-    "a":
-      "a":
-        "a":
-          "a":
-          "b":
-        "b":
-          "a":
-          "b":
-      "b":
-        "a":
-          "a":
-          "b":
-        "b":
-          "a":
-          "b":
-    "b":
-      "a":
-        "a":
-          "a":
-          "b":
-        "b":
-          "a":
-          "b":
-      "b":
-        "a":
-          "a":
-          "b":
-        "b":
-          "a":
-          "b":
 
 ---
 
@@ -79,7 +16,7 @@
 
 <button accesskey="s">Stress reliever</button>
 
-<p dir="rtl">abcdefg</p>
+<p contenteditable dir="rtl">abcdefg</p>
 
 <a draggable="true">hello</a>
 
@@ -87,7 +24,7 @@
 This exampull will be checkd fur spellung when you try to edit it.
 </textarea>
 
-<p dir="rtl">abcdefg</p>
+<p dir="rtl" autofocus>abcdefg</p>
 
 <kbd>hello</kbd>
 
@@ -105,3 +42,7 @@ We comply with the policy[^policy].
   <source srcset="./assets/hints-touch.png"   media="(hover: none) and (pointer: coarse)">
   <img src="./assets/hints-generic.png" alt="Usage hints">
 </picture>
+
+<marquee>ABC</marquee>
+
+
