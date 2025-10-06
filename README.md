@@ -2,8 +2,80 @@
 
 ---
 
+<!-- a -->
 <a draggable="true">hello</a>
 <a href="a.png" download>download</a>
+
+<!-- abbr -->
+<abbr>CSS</abbr> (Cascading Style Sheets)
+
+<!-- acronym -->
+<acronym title="World Wide Web">WWW</acronym>
+
+<!-- address -->
+<address>
+  <a href="mailto:jim@example.com">jim@example.com</a><br />
+  <a href="tel:+14155550132">+1 (415) 555‑0132</a>
+</address>
+
+<!-- area -->
+<map name="infographic">
+  <area
+    shape="poly"
+    coords="129,0,260,95,129,138"
+    href="https://developer.mozilla.org/docs/Web/HTTP"
+    alt="HTTP" />
+  <area
+    shape="poly"
+    coords="260,96,209,249,130,138"
+    href="https://developer.mozilla.org/docs/Web/HTML"
+    alt="HTML" />
+  <area
+    shape="poly"
+    coords="209,249,49,249,130,139"
+    href="https://developer.mozilla.org/docs/Web/JavaScript"
+    alt="JavaScript" />
+  <area
+    shape="poly"
+    coords="48,249,0,96,129,138"
+    href="https://developer.mozilla.org/docs/Web/API"
+    alt="Web APIs" />
+  <area
+    shape="poly"
+    coords="0,95,128,0,128,137"
+    href="https://developer.mozilla.org/docs/Web/CSS"
+    alt="CSS" />
+</map>
+
+<!-- article -->
+<article class="forecast">
+  <h1>シアトルの天気予報</h1>
+  <article class="day-forecast">
+    <h2>2018/03/03</h2>
+    <p>雨。</p>
+  </article>
+  <article class="day-forecast">
+    <h2>2018/03/04</h2>
+    <p>ずっと雨。</p>
+  </article>
+  <article class="day-forecast">
+    <h2>2028/03/05</h2>
+    <p>大雨。</p>
+  </article>
+</article>
+
+<!-- aside -->
+<aside>
+  <p>サメハダイモリは、致命的な神経毒で身を守ります。</p>
+</aside>
+
+<!-- audio -->
+<figure>
+  <figcaption>T-Rex の声を聴こう:</figcaption>
+  <audio controls src="/shared-assets/audio/t-rex-roar.mp3"></audio>
+  <a href="/shared-assets/audio/t-rex-roar.mp3"> Download audio </a>
+</figure>
+
 
 <blockquote cite="https://datatracker.ietf.org/doc/html/rfc1149">
   <p>
@@ -18,6 +90,9 @@
 </blockquote>
 
 <button accesskey="s">Stress reliever</button>
+
+
+<fencedframe src="https://example.com" width="300" height="200"></fencedframe>
 
 <p contenteditable dir="rtl">abcdefg</p>
 
