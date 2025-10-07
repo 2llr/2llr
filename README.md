@@ -1,6 +1,21 @@
 ---
-
+@
 ---
+
+```mermaid
+flowchart TD
+
+subgraph 息子
+a1[起床]-->a2{朝食}
+a2awefeawef-->|急いでいない場合|a3[テレビ視聴]-->a4[歯磨き]
+a2-->|急いでいる場合|a4
+a4-->a5[支度]-aaefawef->a6[出発]
+end
+
+subgraph 母
+b1[起床]-->b2[朝食準備]-->b3[朝食]-->b4[朝食片づけ]
+end
+```
 
 <!-- a -->
 <a draggable="true">hello</a>
@@ -113,6 +128,9 @@ See the [docs] or visit the [site].
 
 We comply with the policy[^policy].
 
+
+We comply with the policy[^policyaaa].
+
 <picture>
   <source srcset="./assets/hints-desktop.png" media="(hover: hover) and (pointer: fine)">
   <source srcset="./assets/hints-touch.png"   media="(hover: none) and (pointer: coarse)">
@@ -120,5 +138,4 @@ We comply with the policy[^policy].
 </picture>
 
 <marquee>ABC</marquee>
-
 
