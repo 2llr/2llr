@@ -1,53 +1,18 @@
 ---
-@
+@minaminao
 ---
 
-```mermaid
-flowchart TD
-
-subgraph 息子
-a1[起床]-->a2{朝食}
-a2awefeawef-->|急いでいない場合|a3[テレビ視聴]-->a4[歯磨き]
-a2-->|急いでいる場合|a4
-a4-->a5[支度]-aaefawef->a6[出発]
-end
-
-subgraph 母
-b1[起床]-->b2[朝食準備]-->b3[朝食]-->b4[朝食片づけ]
-end
-```
-
 ```geojson
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "id": 1,
-      "properties": {
-        "ID": 0
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-              [-90,35],
-              [-90,30],
-              [-85,30],
-              [-85,35],
-              [-90,35]
-          ]
-        ]
-      }
-    }
-  ]
+"😎 My name is hello
 ```
+
+$$ 1+2\left( $$
+
+
+---
 
 > [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
-
-
-$$1+2\left($$
+> 　
 
 <!-- a -->
 <a draggable="true">hello</a>
