@@ -17,6 +17,38 @@ b1[起床]-->b2[朝食準備]-->b3[朝食]-->b4[朝食片づけ]
 end
 ```
 
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "ID": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+              [-90,35],
+              [-90,30],
+              [-85,30],
+              [-85,35],
+              [-90,35]
+          ]
+        ]
+      }
+    }
+  ]
+```
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+
+$$1+2\left($$
+
 <!-- a -->
 <a draggable="true">hello</a>
 <a href="a.png" download>download</a>
